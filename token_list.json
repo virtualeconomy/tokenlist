@@ -2,6 +2,7 @@
     "tokens": [
         {
             "token_id": "TWZ4EscBQqozcuvbEMYvmAQVz5pfTiu6EqqNscisQ",
+            "ticker": "XGZ",
             "name": "Goldzip",
             "logo": "https://i.imgur.com/pvsV93H.png",
             "max_supply": 280000000000,
@@ -11,6 +12,7 @@
         
         {
             "token_id": "TWZZfKFqcaNVe5TrphLRNEm5DQFnBRJMjDDByqv84",
+            "ticker": "IPX",
             "name": "Tachyon",
             "logo": "https://explorer.v.systems/data/Upload/d11fce4a1845ff8a2593df28f313f2c8.png",
             "max_supply": 1500000000,
