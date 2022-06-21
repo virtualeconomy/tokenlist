@@ -1,0 +1,21 @@
+{
+    "tokens": [
+        {
+            "token_id": "TWZ4EscBQqozcuvbEMYvmAQVz5pfTiu6EqqNscisQ",
+            "name": "Goldzip",
+            "logo": "https://i.imgur.com/pvsV93H.png",
+            "max_supply": 280000000000,
+            "unity": 1000000,
+            "description": "XGZ (GoldZIP) is a gold-pegged token that is 100% fully backed by physical gold."
+        },
+        
+        {
+            "token_id": "TWZZfKFqcaNVe5TrphLRNEm5DQFnBRJMjDDByqv84",
+            "name": "Tachyon",
+            "logo": "https://explorer.v.systems/data/Upload/d11fce4a1845ff8a2593df28f313f2c8.png",
+            "max_supply": 1500000000,
+            "unity": 1000000000,
+            "description": "Tachyon VPN token."
+        }
+    ]
+}
