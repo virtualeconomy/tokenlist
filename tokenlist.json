@@ -18,6 +18,16 @@
             "max_supply": 1500000000,
             "unity": 1000000000,
             "description": "Tachyon VPN token."
+        },
+
+        {
+            "token_id": "TWar6LKVSYRwxkEZ3Viqa1QAZeq25w93WmHAbppbf",
+            "ticker": "OCT",
+            "name": "Octopus NFT",
+            "logo": "https://explorer.v.systems/data/Upload/45ad7740e18ab270c3b6fa0bb621b040.png",
+            "max_supply": 30000,
+            "unity": 100000000,
+            "description": "Octopus NFT game token."
         }
     ]
 }
