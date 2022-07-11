@@ -3,13 +3,12 @@
         {
             "token_id": "TWZ4EscBQqozcuvbEMYvmAQVz5pfTiu6EqqNscisQ",
             "ticker": "XGZ",
-            "name": "Goldzip",
+            "name": "GoldZIP",
             "logo": "https://i.imgur.com/pvsV93H.png",
             "max_supply": 280000000000,
             "unity": 1000000,
             "description": "XGZ (GoldZIP) is a gold-pegged token that is 100% fully backed by physical gold."
         },
-        
         {
             "token_id": "TWZZfKFqcaNVe5TrphLRNEm5DQFnBRJMjDDByqv84",
             "ticker": "IPX",
@@ -19,15 +18,50 @@
             "unity": 1000000000,
             "description": "Tachyon VPN token."
         },
-
         {
             "token_id": "TWar6LKVSYRwxkEZ3Viqa1QAZeq25w93WmHAbppbf",
             "ticker": "OCT",
-            "name": "Octopus NFT",
+            "name": "NFT Octopus",
             "logo": "https://explorer.v.systems/data/Upload/45ad7740e18ab270c3b6fa0bb621b040.png",
             "max_supply": 30000,
             "unity": 100000000,
             "description": "Octopus NFT game token."
+        },
+        {
+            "token_id": "TWYzPD6Gi64Det4aksEAPpwjjWgVMPFBH3fewXzQg",
+            "ticker": "OP",
+            "name": "Octopus Points",
+            "logo": "https://explorer.v.systems/data/Upload/da26e2f1e25d6a3b6eed33edee84d2ca.png",
+            "max_supply": 10000000000,
+            "unity": 100000000,
+            "description": "Users can use Octopus Point Tokens to transact NFT Octopus assets."
+        },
+        {
+            "token_id": "TWabeoJBiTpkJRco2gQaJv4oitxyTwntVaSMP78i4",
+            "ticker": "NFC315",
+            "name": "NFC315",
+            "logo": "https://explorer.v.systems/data/Upload/fb0be2ed4e163843178c9595adb827e2.png",
+            "max_supply": 100000000,
+            "unity": 100000000,
+            "description": "NFC315防伪溯源服务Token"
+        },
+        {
+            "token_id": "TWZgYwK7SqzAfD8affZMQgiwwgid6Qfh6M9s52AGf",
+            "ticker": "LNGMN",
+            "name": "LongMen",
+            "logo": "https://explorer.v.systems/data/Upload/3815a25127b81a70276b960d38a593bc.png",
+            "max_supply": 100000000,
+            "unity": 100000000,
+            "description": "传播佛教、道教、周易等相关传统文化，用于APP积分、可预测、消费等."
+        },
+        {
+            "token_id": "TWayhKjbWyPUNNBkPZymLL2LUehSdQiZNxLWYfNBt",
+            "ticker": "VGAN",
+            "name": "VGAN",
+            "logo": "https://explorer.v.systems/data/Upload/7fb4ed742d41113d38e1ff934ceadedb.png",
+            "max_supply": 8400000000000,
+            "unity": 1,
+            "description": "VganToken"
         }
     ]
 }
