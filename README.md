@@ -10,4 +10,6 @@
 
 ## How to fetch this .json
 
-> https://raw.githubusercontent.com/virtualeconomy/tokenlist/main/token_list.json?token=GHSAT0AAAAAABMBV3BIDNL262UNTMIX7CLUYVR5OMA
+```
+wget https://raw.githubusercontent.com/virtualeconomy/tokenlist/main/tokenlist.json
+```
