@@ -1,0 +1,31 @@
+{
+    "tokens": [
+        {
+            "token_id": "TWsjnp1WhdfxV9kGbj8dNWbsgaKKHeFzHLyp71xdW",
+            "ticker": "XGZTest",
+            "name": "Testnet GoldZIP",
+            "logo": "https://i.imgur.com/pvsV93H.png",
+            "max_supply": 280000000000,
+            "unity": 1000000,
+            "description": "Testnet XGZ (GoldZIP) tokens."
+        },
+        {
+            "token_id": "TWar6LKVSYRwxkEZ3Viqa1QAZeq25w93WmHAbppbf",
+            "ticker": "OCTTest",
+            "name": "Testnet NFT Octopus",
+            "logo": "https://explorer.v.systems/data/Upload/45ad7740e18ab270c3b6fa0bb621b040.png",
+            "max_supply": 1000000,
+            "unity": 100,
+            "description": "Test Octopus NFT game token."
+        },
+        {
+            "token_id": "TWsuRNTfLDmU4skpUstSPmrXkTRTsGWGncvKTBmtd",
+            "ticker": "OPTest",
+            "name": "Testnet OP - Octopus Points",
+            "logo": "https://explorer.v.systems/data/Upload/da26e2f1e25d6a3b6eed33edee84d2ca.png",
+            "max_supply": 100000000,
+            "unity": 100,
+            "description": "Test Octopus Point Tokens to transact NFT Octopus assets."
+        }
+    ]
+}
