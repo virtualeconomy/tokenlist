@@ -1,0 +1,13 @@
+{
+    "tokens": [
+        {
+            "token_id": "TWsjnp1WhdfxV9kGbj8dNWbsgaKKHeFzHLyp71xdW",
+            "ticker": "XGZTest",
+            "name": "Testnet GoldZIP",
+            "logo": "https://i.imgur.com/pvsV93H.png",
+            "max_supply": 10000,
+            "unity": 1000000,
+            "description": "Testnet XGZ (GoldZIP) tokens."
+        }
+    ]
+}
