@@ -8,6 +8,24 @@
             "max_supply": 10000,
             "unity": 1000000,
             "description": "Testnet XGZ (GoldZIP) tokens."
+        },
+        {
+            "token_id": "TWuziBG2jLUpcJH7mQgxPvVGYMoyHRCtyZDjaRe7F",
+            "ticker": "SDTest",
+            "name": "Testnet Stardust token",
+            "logo": "",
+            "max_supply": 100000000,
+            "unity": 1,
+            "description": "Testnet SD tokens."
+        },
+        {
+            "token_id": "TWsgrwfwcR6oCp7AhSh9gwgN29WeppM4cWmdaUsg5",
+            "ticker": "WMTest",
+            "name": "Testnet Wemake token",
+            "logo": "",
+            "max_supply": 100000000,
+            "unity": 100,
+            "description": "Testnet Wemake tokens."
         }
     ]
 }
