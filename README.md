@@ -13,3 +13,7 @@
 ```
 wget https://raw.githubusercontent.com/virtualeconomy/tokenlist/main/tokenlist.json
 ```
+
+## network
+testnet: http://gemmer.vcoin.systems:9924
+devnet: http://veldidina.vos.systems:9928

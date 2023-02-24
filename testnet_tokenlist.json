@@ -1,16 +1,7 @@
 {
     "tokens": [
         {
-            "token_id": "TWsjnp1WhdfxV9kGbj8dNWbsgaKKHeFzHLyp71xdW",
-            "ticker": "XGZTest",
-            "name": "Testnet GoldZIP",
-            "logo": "https://i.imgur.com/pvsV93H.png",
-            "max_supply": 280000000000,
-            "unity": 1000000,
-            "description": "Testnet XGZ (GoldZIP) tokens."
-        },
-        {
-            "token_id": "TWar6LKVSYRwxkEZ3Viqa1QAZeq25w93WmHAbppbf",
+            "token_id": "TWugE2dvCHCiKTzeeuCnU13vt1upg6xA6tnkGngL2",
             "ticker": "OCTTest",
             "name": "Testnet OCT Token",
             "logo": "https://explorer.v.systems/data/Upload/45ad7740e18ab270c3b6fa0bb621b040.png",
