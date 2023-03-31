@@ -1,0 +1,64 @@
+name: 'Notify VSYS Explorer'
+
+on:
+  push:
+    branches:
+      - main
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  notify:
+    name: 'Change in Tokenlist(s)'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Get changed files
+        id: changed-files
+        uses: tj-actions/changed-files@v35
+        
+      - name: Call Mainnet Explorer API
+        id: MainnetRequest
+        if: contains(steps.changed-files.outputs.modified_files, 'tokenlist.json')
+        uses: fjogeleit/http-request-action@v1
+        with:
+          url: 'https://${{ secrets.MAINNET_URL }}/api/v1/apikey'
+          method: 'PATCH'
+          customHeaders: '{"Content-Type": "application/json"}'
+          data: '{"apiKey": "${{ secrets.MAINNET_APIKEY }}", "function": "updateLists"}'
+          # Wait for 15s for explorer to update it's lists
+          timeout: 15000
+        
+        # Testnet Explorer is not deployed yet
+#       - name: Call Testnet Explorer API
+#         id: TestnetRequest
+#         if: contains(steps.changed-files.outputs.modified_files, 'testnet_tokenlist.json')
+#         uses: fjogeleit/http-request-action@v1
+#         with:
+#           url: 'https://${{ secrets.TESTNET_URL }}/api/v1/apikey'
+#           method: 'PATCH'
+#           customHeaders: '{"Content-Type": "application/json"}'
+#           data: '{"apiKey": "${{ secrets.TESTNET_APIKEY }}", "function": "updateLists"}'
+#           # Wait for 15s for explorer to update it's lists
+#           timeout: 15000
+        
+      - name: Call Devnet Explorer API
+        id: DevnetRequest
+        if: contains(steps.changed-files.outputs.modified_files, 'devnet_tokenlist.json')
+        uses: fjogeleit/http-request-action@v1
+        with:
+          url: 'https://${{ secrets.DEVNET_URL }}/api/v1/apikey'
+          method: 'PATCH'
+          customHeaders: '{"Content-Type": "application/json"}'
+          data: '{"apiKey": "${{ secrets.DEVNET_APIKEY }}", "function": "updateLists"}'
+          timeout: 15000
+          
+      - name: Show responses
+        run: |
+          echo ${{ steps.MainnetRequest.outputs.response }}
+          # echo ${{ steps.TestnetRequest.outputs.response }}
+          echo ${{ steps.DevnetRequest.outputs.response }}
