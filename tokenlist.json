@@ -67,7 +67,7 @@
             "token_id": "TWZ96Z88DFBsTiZNBHwV7c4Ys2zFqNXCweC4GpF93",
             "ticker": "USDV",
             "name": "VCloud USD",
-            "logo": "https://github.com/virtualeconomy/gemmer/raw/master/images/vcloudusd.png",
+            "logo": "https://gateway.pinata.cloud/ipfs/QmfC7b9LPwgCunC9ijKRQipmVteEwZHFQWFmQedGqJhA8z",
             "max_supply": 1000000000,
             "unity": 100000000,
             "description": "VCloud's USD equivalent token acceptable by VCloud as USD payment for services."
