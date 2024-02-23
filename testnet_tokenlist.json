@@ -17,6 +17,15 @@
             "max_supply": 100000000,
             "unity": 100,
             "description": "Test Octopus Point Tokens to transact NFT Octopus assets."
+        },
+        {
+            "token_id": "TWudFkwZV5h7stgTao8Wiyzq44iJWz2RTmgxwk3cz",
+            "ticker": "TET",
+            "name": "Tetris Token",
+            "logo": "",
+            "max_supply": 100000000,
+            "unity": 100000000,
+            "description": "Test Tetris Game Token"
         }
     ]
 }
