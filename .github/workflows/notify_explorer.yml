@@ -33,18 +33,17 @@ jobs:
           # Wait for 15s for explorer to update it's lists
           timeout: 15000
         
-        # Testnet Explorer is not deployed yet
-#       - name: Call Testnet Explorer API
-#         id: TestnetRequest
-#         if: contains(steps.changed-files.outputs.modified_files, 'testnet_tokenlist.json')
-#         uses: fjogeleit/http-request-action@v1
-#         with:
-#           url: 'https://${{ secrets.TESTNET_URL }}/api/v1/apikey'
-#           method: 'PATCH'
-#           customHeaders: '{"Content-Type": "application/json"}'
-#           data: '{"apiKey": "${{ secrets.TESTNET_APIKEY }}", "function": "updateLists"}'
-#           # Wait for 15s for explorer to update it's lists
-#           timeout: 15000
+      - name: Call Testnet Explorer API
+        id: TestnetRequest
+        if: contains(steps.changed-files.outputs.modified_files, 'testnet_tokenlist.json')
+        uses: fjogeleit/http-request-action@v1
+        with:
+          url: 'https://${{ secrets.TESTNET_URL }}/api/v1/apikey'
+          method: 'PATCH'
+          customHeaders: '{"Content-Type": "application/json"}'
+          data: '{"apiKey": "${{ secrets.TESTNET_APIKEY }}", "function": "updateLists"}'
+          # Wait for 15s for explorer to update it's lists
+          timeout: 15000
         
       - name: Call Devnet Explorer API
         id: DevnetRequest
