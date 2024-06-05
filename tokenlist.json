@@ -71,6 +71,15 @@
             "max_supply": 1000000000,
             "unity": 100000000,
             "description": "VCloud's USD equivalent token acceptable by VCloud as USD payment for services."
+        },
+        {
+            "token_id": "TWbTUFLjM6hi1Ci1qv9e3mrcEsewfMedMSG7pYipt",
+            "ticker": "TET",
+            "name": "Tetris Token",
+            "logo": "https://qiniu.stylika.online/TET.png",
+            "max_supply": 100000000,
+            "unity": 100000000,
+            "description": "Test Tetris Game Token"
         }
     ]
 }
