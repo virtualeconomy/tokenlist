@@ -79,7 +79,16 @@
             "logo": "https://qiniu.stylika.online/TET.png",
             "max_supply": 100000000,
             "unity": 100000000,
-            "description": "Test Tetris Game Token"
+            "description": "Tetris Game Token"
+        },
+        {
+            "token_id": "TWa1CT3wYfYGpDiP6JPsEnkvUu6B37gGEvTpRNKih",
+            "ticker": "VIO",
+            "name": "VIO Token",
+            "logo": "https://qiniu.stylika.online/vio.svg",
+            "max_supply": 100000000000,
+            "unity": 100,
+            "description": "VIO Point"
         }
     ]
 }
