@@ -91,12 +91,12 @@
             "description": "VIO Point"
         },
         {
-            "token_id": "TWbb3oFZtYM4PuWbxeDjxFxG9ZiaN8UcMAs41mxkT",
+            "token_id": "TWb5WLb6VTgyRLcW31w2bnKCzSkmkdfCTwF88zED4",
             "ticker": "V",
             "name": "V Point",
             "logo": "https://raw.githubusercontent.com/virtualeconomy/tokenlist/refs/heads/main/images/mainnet/v_point.svg",
             "max_supply": 1000000000,
-            "unity": 100,
+            "unity": 100000000,
             "description": "V Point"
         }
     ]
