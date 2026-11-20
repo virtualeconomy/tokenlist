@@ -1,15 +1,6 @@
 {
     "tokens": [
         {
-            "token_id": "TWZ4EscBQqozcuvbEMYvmAQVz5pfTiu6EqqNscisQ",
-            "ticker": "XGZ",
-            "name": "GoldZIP",
-            "logo": "https://i.imgur.com/pvsV93H.png",
-            "max_supply": 280000000000,
-            "unity": 1000000,
-            "description": "XGZ (GoldZIP) is a gold-pegged token that is 100% fully backed by physical gold."
-        },
-        {
             "token_id": "TWZZfKFqcaNVe5TrphLRNEm5DQFnBRJMjDDByqv84",
             "ticker": "IPX",
             "name": "Tachyon",
